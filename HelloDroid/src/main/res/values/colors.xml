@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#91567d</color>
+    <color name="colorPrimaryDark">#91567d</color>
+    <color name="colorAccent">#fa6a6a</color>
+    <color name="windowBackgroundColor">@color/white</color>
+
+    <color name="facebook">#0659b7</color>
+    <color name="twitter">#09baff</color>
+    <color name="google_plus">#FF4444</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="black">#000000</color>
+    <color name="light_red">#fa6a6a</color>
+    <color name="android_green">#FFA4C639</color>
+    <color name="title_separator">#8d8d8c</color>
+</resources>

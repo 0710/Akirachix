@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">HelloDroid</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Menu Items -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Titles-->
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- EditText Hints -->
+    <string name="hint_admin">admin</string>
+    <string name="hint_password">******</string>
+    <string name="hint_full_name">John Doe</string>
+    <string name="hint_email">johndoe@gmail.com</string>
+
+    <!-- TextViews -->
+    <string name="tv_user_name">UserName:</string>
+    <string name="tv_password">Password:</string>
+    <string name="tv_full_names">Full Names</string>
+    <string name="tv_email">Email</string>
+
+    <!-- Button Text -->
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+
+    <!-- TextView Values -->
+    <string name="strFullNames">First Name: </string>
+    <string name="strLastName">Last Name: </string>
+    <string name="strUserName">User Name:</string>
+    <string name="strPassword">Password:</string>
+    <string name="strConfirmPassword">Confirm Password:</string>
+    <string name="strEmail">Email:</string>
+    <string name="strCreateAcc">Create Account</string>
+    <string name="strTitleLogin">Login</string>
+    <string name="strAndroid">I Love Android.</string>
+    <string name="strJava">I Love Java</string>
+    <string name="strTabText">Another Tab Fragment</string>
+    <string name="text_view_or">Or Sign in with</string>
+    <string name="policy_text">By Signing in with (email,Facebook or Google), \nyou accept the Akirachix\'s Terms and use and Privacy Policy</string>
+
+    <!-- EditText Hint Values -->
+    <string name="strHintFullNames">Code</string>
+    <string name="strHintLastName">Wizard </string>
+    <string name="strHintUserName">codeWizard</string>
+    <string name="strHintPassword">***********</string>
+    <string name="strHintEmail">codewizard@gmail.com</string>
+    <string name="strHintEnterUrl">Enter Url</string>
+
+    <!-- Button Text -->
+    <string name="btnTextRegister">Register</string>
+    <string name="btnTextLogin">Login</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnBrowser">Open Link</string>
+    <string name="btnFacebook">Sign in With Facebook</string>
+    <string name="btnTwitter">Sign in With Twitter</string>
+    <string name="btnGooglePlus">Sign in With Google +</string>
+
+    <!-- CheckBox Text -->
+    <string name="cbShowPassword">Show Password:</string>
+    <string name="cbRememberMe">Remember Me</string>
+    <string name="imageDescription">Image Description</string>
+
+
+    <!-- Screen Names-->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <!-- String Values -->
+    <string name="strImage">Image view</string>
+</resources>

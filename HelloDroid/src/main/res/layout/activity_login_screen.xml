@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <include
+            layout="@layout/toolbar"/>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:padding="15dp">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+            <TextView
+                    android:id="@+id/tvEmail"
+                    style="@style/TextViewStyle"
+                    android:text="@string/strEmail"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                    android:id="@+id/etLoginEmail"
+                    style="@style/EditTextStyle"
+                    android:padding="20dp"
+                    android:hint="@string/strHintEmail"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_action_email"
+                    android:drawableStart="@drawable/ic_action_email"/>
+
+            <TextView
+                    android:id="@+id/tvPassword"
+                    style="@style/TextViewStyle"
+                    android:text="@string/strPassword"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                    android:id="@+id/etLoginPassword"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/strHintPassword"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@drawable/ic_action_password"
+                    android:drawableStart="@drawable/ic_action_password"/>
+
+            <CheckBox
+                    android:id="@+id/cbRememberMe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/cbRememberMe"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="2">
+
+                <Button
+                        android:id="@+id/btnLogin"
+                        style="@style/Text"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_style"
+                        android:text="@string/btnLogin"/>
+
+                <Button
+                        android:id="@+id/btnRegister"
+                        style="@style/Text"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_style"
+                        android:text="@string/btnTextRegister"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                <ImageView
+                        android:layout_weight="1"
+                        style="@style/separator"
+                        android:contentDescription="@string/strImage"/>
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/text_view_or"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/black"/>
+
+                <ImageView
+                        android:layout_weight="1"
+                        style="@style/separator"
+                        android:contentDescription="@string/strImage"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/policy_text"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

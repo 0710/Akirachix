@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Base.Theme.Akirachix" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/windowBackgroundColor</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!-- text large -->
+    <style name="TextLarge" parent="@style/Text">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <!-- text medium -->
+    <style name="TextMedium" parent="@style/Text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMediumTwo" parent="@style/Text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMediumThree" parent="@style/Text">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- text medium with icon -->
+    <style name="TextMedium.WithIcon">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextMediumThree.WithIcon">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- text micro -->
+    <style name="TextMicro" parent="@style/Text">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- text small -->
+    <style name="TextSmall" parent="@style/Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--Button Style -->
+    <style name="Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Button.Twitter">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/button_twitter</item>
+    </style>
+
+    <style name="Button.GooglePlus">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/button_google_plus</item>
+    </style>
+
+    <style name="Button.Facebook">
+        <item name="android:background">@drawable/button_facebook</item>
+    </style>
+
+
+    <!-- TextView Style -->
+    <style name="TextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- EditText Style -->
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/title_separator</item>
+    </style>
+
+</resources>
